@@ -1,0 +1,109 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+/*Header Styling*/
+
+#top{
+    color:rgb(245, 10, 10);
+    text-align:center;
+    font-size:46px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+#top1{
+    text-align:center;
+    color:bisque;
+    font-size:21px;
+    font-family: 'Ubuntu Mono', monospace;
+    padding-bottom: 20px;
+}
+/* Navigation bar styling*/
+
+/*Navbar image styling*
+.navbar img{
+    display:block;
+    width: 50px;
+    height:50px;
+    margin:auto;
+    margin-bottom: 3px;
+}
+
+/*Navbar Functionality
+/*.navbar{
+    display:flex;
+    justify-content: space-around;
+    background-color: gray;
+    height: 14vh;
+    width: 100vw;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-top:10px;
+   border: 2px solid black;
+   border-radius:15px;
+}
+
+
+/*Navbar content functionality
+#navcontent{
+    display: flex;
+    justify-content: center;
+}*/ 
+
+
+
+.form{
+    width: 100%;
+   /* height: 90vh;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 152, 242);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url(http://www.shukatsu-note.com/wp-content/uploads/2014/12/computer-564136_1280.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #06D85F;
+    margin: 80px 0;
+  }
+  
+  /*.box {
+    width: 40%;
+    margin: 0 auto;
+    background: rgba(255,255,255,0.2);
+    padding: 35px;
+    border: 2px solid #fff;
+    border-radius: 20px/50px;
+    background-clip: padding-box;
+    text-align: center;
+  }*/
+  
+  .button {
+    font-size: 1em;
+    padding: 10 20px;
+    color: #fff;
+    border: 2px solid #06D85F;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+   /* transition: all 0.3s ease-out;*/
+  }
+  
+  #result{
+  
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    color: white;
+    background-color:black;
+    
+
+  }
